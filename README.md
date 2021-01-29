@@ -1,4 +1,4 @@
-# Concordia-Chat-Bot
+# Concordia University Chat Bot
 
 A chatbot that answers questions about the courses in Concordia
 
