@@ -1,0 +1,49 @@
+For student id 40083895,
+
+Please enter the Student id: 40083895
+
+TopicName
+---------
+server
+fault tolerance
+concurrency
+remote procedure call
+distributed computing
+scalability
+CORBA
+concurrency control
+Client-server
+communication
+fault-tolerant
+interprocess communication
+distributed systems
+COMP
+Computer Science
+
+----------------------------------------------------------------------------------------
+
+For student id 40083902,
+Please enter the Student id: 40083902
+
+TopicName
+---------
+computer
+3D
+Artificial Intelligence
+AI
+mobile gaming
+Game engine
+collision detection
+pathfinding
+OpenCV
+COMP
+perceptual organization
+Computer Vision
+
+--------------------------------------------------------------------------------------
+
+For student id 40083904, he has only one subject(F grade), so no topics listed.
+Please enter the Student id: 40083904
+
+TopicName
+---------

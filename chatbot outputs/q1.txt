@@ -1,0 +1,36 @@
+Please enter the query (Please type 0 to exit):
+What is the COMP 7251 about?
+
+COMP 7251 has following description:
+
+Prerequisite: COMP 6461. Introduction to mobile computing and wireless networks:local (LAN), personal (PAN) and metropolitan (MAN). Mobile ad hoc networks and sensor networks. Algorithms and protocols for medium access, routing, topology control, and reliable transport. A project is required.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Please enter the query (Please type 0 to exit):
+What is the HENV 630 about?
+
+HENV 630 has following description:
+
+Human Geography is informed by a range of theories that have developed inside and outside the discipline. This course introduces students to some of the most influential of these theories as well as to theoretically-informed geographical literature. While students are exposed to foundational theories, the course focuses on critical geographical work that seeks to interpret the present moment.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Please enter the query (Please type 0 to exit):
+What is the SPAN 420 about?
+
+SPAN 420 has following description:
+
+Prerequisite: SPAN 303 or equivalent. This course examines literary and cultural discourses in Spain during Franco’s dictatorship. Content may vary from year to year and may focus on the literature produced under the dictatorship or in exile. Through close readings and critical discussions of works by authors such as Bergamín, Erice, Aub, and Matute, students consider topics that may include the impact of censorship on cultural history, cultural hegemony and exile, reactionary ideologies of modernity, and the role of silence and fragmentary discourse against official constructions of the nation.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Please enter the query (Please type 0 to exit):
+What is the FLIT 300 about?
+
+FLIT 300 has following description:
+
+Aperçu général de la littérature française du Moyen Âge, de la Renaissance et du XVIIe siècle, et des contextes historiques, sociaux et culturels qui permettent de mieux comprendre les œuvres.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Please enter the query (Please type 0 to exit):
+What is the FLIT 500 about?
+
+I am sorry there is not such course in my database.

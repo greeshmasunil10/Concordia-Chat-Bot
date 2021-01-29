@@ -1,0 +1,28 @@
+For COMP 7251,
+
+Please enter the Course Subject(like COMP): COMP
+Please enter the Course Number(like 691): 7251
+
+TopicName           TopicLink
+wireless             http://dbpedia.org/resource/Wireless_LAN
+topology             http://dbpedia.org/resource/Network_topology
+MAN             http://dbpedia.org/resource/Metropolitan_area_network
+sensor networks             http://dbpedia.org/resource/Wireless_sensor_network
+PAN             http://dbpedia.org/resource/Personal_area_network
+mobile computing             http://dbpedia.org/resource/Mobile_computing
+
+
+--------------------------------------------------------------------------------------
+
+
+For MAST 830,
+
+Please enter the Course Subject(like COMP): MAST
+Please enter the Course Number(like 691): 830
+
+TopicName           TopicLink
+Gauss             http://dbpedia.org/resource/Carl_Friedrich_Gauss
+class number             http://dbpedia.org/resource/Ideal_class_group
+L-series             http://dbpedia.org/resource/L-function
+Cyclotomic Fields             http://dbpedia.org/resource/Cyclotomic_field
+theorem             http://dbpedia.org/resource/Theorem

@@ -1,0 +1,17 @@
+For student id 40083902
+Please enter the Student id: 40083902
+
+CourseSubject    CourseNumber    CourseName                                Grade
+COMP             6321             Machine Learning (4 credits)             F
+COMP             6341             Computer Vision (*) (4 credits)             A+
+COMP             6331             Advanced Game Development (*) (4 credits)             B+
+
+---------------------------------------------------------------------------------------------------------------------
+
+For student id 40083898
+Please enter the Student id: 40083898
+
+CourseSubject    CourseNumber    CourseName                                			Grade
+COMP             7251             Mobile Computing and Wireless Networks (4 credits)             A+
+COMP             6281             Parallel Programming (*) (4 credits)             		F
+COMP             7241             Parallel Algorithms and Architectures (4 credits)             B+

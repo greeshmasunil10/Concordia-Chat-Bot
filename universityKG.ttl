@@ -1,0 +1,94 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isp: <http://intelligentsystemproj1.io/schema#> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dc:   <http://purl.org/dc/elements/1.1/> .
+
+##########################################################  Classes  ##############################################################
+
+## University
+isp:University
+	a rdfs:Class ;
+	foaf:name xsd:string ;
+    dc:source xsd:string ;
+	rdfs:label "University"@en ;
+    rdfs:comment "Class for a University"@en .
+    
+## Course
+isp:Course 
+	a rdfs:Class ;
+	foaf:name xsd:string ;
+	dc:subject xsd:string ;
+	dc:identifier xsd:string ;
+    dc:description xsd:string ;
+    rdfs:seeAlso xsd:string ;
+	rdfs:label "Course"@en ;
+    rdfs:comment "Class for a Course"@en .
+	
+## Topic
+isp:Topic 
+	a rdfs:Class ;
+	foaf:name xsd:string ;
+    dc:source xsd:string ;
+	rdfs:label "CourseTopic"@en ;
+    rdfs:comment "Class for a Course Topic"@en .
+	
+## Student	
+isp:Student 
+	a rdfs:Class ;
+	rdfs:subClassOf foaf:Person;
+	foaf:givenName xsd:string ;
+	foaf:familyName xsd:string ;
+    dbp:id xsd:string ;
+    foaf:mbox xsd:string ;
+	rdfs:label "Student"@en ;
+	rdfs:comment "Class for a Student"@en .
+
+## Course with Grades
+isp:CourseGrade
+	a rdfs:Class ;
+	dc:subject isp:Course ;
+	dbp:score xsd:string ;
+	rdfs:label "Course and Grade"@en;
+	rdfs:comment "Courses with Grades of a student"@en ;
+	dbp:termPeriod xsd:string .
+
+
+
+##########################################################  Properties  ##############################################################
+
+## University to course
+isp:coversCourse 
+	a rdf:Property ;
+    rdfs:domain isp:University ;
+    rdfs:range isp:Course ;
+	rdfs:label "CoveringCourses"@en ;
+    rdfs:comment "Courses Covered in University"@en .
+
+## Course to Topic
+isp:hasPart
+	a rdf:Property ;
+    rdfs:domain isp:Course ;
+    rdfs:range isp:Topic ;
+	rdfs:label "PartOfCourse"@en ;
+    rdfs:comment "Topics lying under Courses"@en .
+
+## Student to University	
+isp:studiesAt 
+	a rdf:Property ;
+	rdfs:domain isp:Student  ;
+    rdfs:range isp:University ;
+	rdfs:label "StudiesAt"@en ;
+    rdfs:comment "Student studies at University"@en .
+    
+## Student to course and grades	
+isp:tookCourse
+	a rdf:Property ;
+	rdfs:domain isp:Student ;
+    rdfs:range isp:CourseGrade ;
+	rdfs:label "CourseTaken"@en ;
+    rdfs:comment "Courses taken by student"@en .
+	

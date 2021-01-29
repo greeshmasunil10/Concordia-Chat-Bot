@@ -1,0 +1,3 @@
+Total number of students : 15
+Total number of courses : 6014
+Total number of topics : 17099

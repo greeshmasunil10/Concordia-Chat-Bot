@@ -1,0 +1,22 @@
+For "Game engine",
+Please enter the topic name: Game engine
+
+StudentID            StudentName
+40083901             Mary Smith
+40083902             Maria Hernandez
+
+---------------------------------------------------------------------------------
+
+For "Computer Science",
+
+Please enter the topic name: Computer Science
+
+StudentID            StudentName
+40083895             James Smith
+
+---------------------------------------------------------------------------------
+
+For "design patterns", no students are there.
+Please enter the topic name: design patterns
+
+StudentID            StudentName

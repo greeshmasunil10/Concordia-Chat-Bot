@@ -1,0 +1,32 @@
+PREFIX dbr: <http://dbpedia.org/resource/>
+prefix dbp: <http://dbpedia.org/property/> 
+prefix dbr: <http://dbpedia.org/resource/> 
+prefix dc: <http://purl.org/dc/elements/1.1/> 
+prefix foaf: <http://xmlns.com/foaf/0.1/> 
+prefix isp: <http://intelligentsystemproj1.io/schema#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix xml: <http://www.w3.org/XML/1998/namespace> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+
+We tried two queries:
+a. Following query was tried first. Because of the huge database, this was taking a lot of time while running in python. Thus, we tried another query listed in b part.
+
+SELECT 
+(COUNT(DISTINCT ?student) as ?scount)
+(COUNT(DISTINCT ?course) as ?ccount)
+(COUNT(DISTINCT ?topic) as ?tcount)
+WHERE{
+	?student rdf:type isp:Student .
+	?course rdf:type isp:Course .
+	?topic rdf:type isp:Topic .
+}
+
+b. This query was taking very less time comparatively.
+
+SELECT ?scount ?ccount  ?tcount  
+WHERE{
+{SELECT (COUNT(DISTINCT ?student) as ?scount) WHERE { ?student rdf:type isp:Student . } }
+UNION {SELECT (COUNT(DISTINCT ?course) as ?ccount) WHERE { ?course rdf:type isp:Course .} }
+UNION {SELECT (COUNT(DISTINCT ?topic) as ?tcount) WHERE { ?topic rdf:type isp:Topic .} }       
+}

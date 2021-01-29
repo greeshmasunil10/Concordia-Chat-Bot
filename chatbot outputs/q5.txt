@@ -1,0 +1,80 @@
+Please enter the query (Please type 0 to exit):
+What does 40083895 know?
+
+40083895 knows:
+
+COMP
+Computer Science
+scalability
+interprocess communication
+distributed computing
+server
+communication
+fault tolerance
+concurrency control
+remote procedure call
+concurrency
+Client-server
+fault-tolerant
+distributed systems
+CORBA
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Please enter the query (Please type 0 to exit):
+What does James Smith know?
+
+James Smith knows:
+
+COMP
+Computer Science
+scalability
+interprocess communication
+distributed computing
+server
+communication
+fault tolerance
+concurrency control
+remote procedure call
+concurrency
+Client-server
+fault-tolerant
+distributed systems
+CORBA
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Please enter the query (Please type 0 to exit):
+What does 40083902 know?
+
+40083902 knows:
+
+perceptual organization
+Computer Vision
+OpenCV
+COMP
+computer
+collision detection
+Game engine
+3D
+Artificial Intelligence
+AI
+pathfinding
+mobile gaming
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Please enter the query (Please type 0 to exit):
+What does Maria Hernandez know?
+
+Maria Hernandez knows:
+
+perceptual organization
+Computer Vision
+OpenCV
+COMP
+computer
+collision detection
+Game engine
+3D
+Artificial Intelligence
+AI
+pathfinding
+mobile gaming
